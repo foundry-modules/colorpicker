@@ -143,7 +143,7 @@ $.extend(Colorpicker.prototype, {
 
             for (i=0; i<=11; i++) {
                 div = $('<div class="colorpicker-hue-stop"></div>').attr('style','height:8.333333%; filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='+stops[i]+', endColorstr='+stops[i+1]+'); -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='+stops[i]+', endColorstr='+stops[i+1]+')";');
-                huebar.append(div);
+                hPanel.append(div);
             }
 
         } else {
